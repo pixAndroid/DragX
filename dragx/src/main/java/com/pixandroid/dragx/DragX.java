@@ -7,6 +7,8 @@ import android.widget.RelativeLayout;
 
 import androidx.core.content.ContextCompat;
 
+import com.pixandroid.dragx.helper.AnchorTouchListener;
+
 import org.jetbrains.annotations.NotNull;
 
 public class DragX {
@@ -33,6 +35,20 @@ public class DragX {
         bottomRightParms.addRule(RelativeLayout.ALIGN_PARENT_START, custom_view_top.getId());
         bottomRightParms.addRule(RelativeLayout.ALIGN_PARENT_TOP, custom_view_top.getId());
         custom_view_top.addView(topLeftAnchor, bottomRightParms);
+
+        topLeftAnchor.setOnTouchListener(
+                new AnchorTouchListener(custom_view_top,
+                        new AnchorTouchListener.TouchListener() {
+                            @Override
+                            public void onTap(int x, int y) {
+
+                            }
+
+                            @Override
+                            public void onStateChanged(String state) {
+
+                            }
+                        }));
 
 
     }
