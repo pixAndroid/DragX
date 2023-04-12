@@ -26,7 +26,7 @@ distributionUrl=https\://services.gradle.org/distributions/gradle-7.4-bin.zip
 #### Step 2. Add the dependency
 
 ```bash
-	implementation 'com.github.pixAndroid:dragx:1.1'
+	implementation 'com.github.pixAndroid:dragx:1.2'
 ```
 ## Examples
 ### Just one single line call
