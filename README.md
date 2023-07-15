@@ -3,6 +3,10 @@
 [![](https://jitpack.io/v/pixAndroid/DragX.svg)](https://jitpack.io/#pixAndroid/DragX)
 
 
+
+https://github.com/pixAndroid/DragX/assets/36542546/1a1c0402-d597-413c-b2a6-0d7a2940866b
+
+
 This will help you to drag  Android views
 
 
